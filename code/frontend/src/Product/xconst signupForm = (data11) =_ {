@@ -1,0 +1,76 @@
+xconst signupForm = (data11) => {
+    return (
+      <>
+    <div className="row row-no-gutters">
+      <div className="col-6 col-no-gutters" style={{backgroundColor:'skyblue',height: '100vh',alignItems:'center'}}>
+      <h1 id="crest_logo" style={{textAlign:'center',paddingTop:'40%',color:'aliceblue'}} className="display-4">C3I<br/>Healthcare<br/>System</h1>
+      </div>
+          <div className="col-6 col-no-gutters">
+              <div >
+                            <div style={{textAlign:'center', paddingTop:'35%'}}><h3>Sign Up</h3><br /><br /></div> 
+                            <div className='col-no-gutters'style={{paddingLeft:'40%'}}>
+                                <div>
+                                  Name<br />
+                                  <input type="text" {...name} autoComplete="new-password" />
+                                </div>
+
+                                <div style={{ marginTop: 10 }}>
+                                  Email<br />
+                                  <input type="text" {...email} autoComplete="new-password" />
+                                
+              </div>
+                                
+                                <div style={{ marginTop: 10 }}>
+                                  Password<br />
+                                  <input type="password" {...password} autoComplete="new-password" />
+                                  <div style={{ marginTop: 10 }}>
+                <p>Scan the QR code on your Google Authenticator App before your signup</p>
+              </div>
+                                  <div style={{ marginLeft: 30,marginTop: 10 }}>
+                                <QRCode value="http://facebook.github.io/react/" />
+              </div>
+                                </div>
+                                
+                                {error && <><small style={{ color: 'red' }}>{error}</small><br /></>}<br />
+                                <input type="button" value={loading ? 'Loading...' : 'Signup'} onClick={handleLogin} disabled={loading} /><br />
+                                </div>
+            </div>
+         <div>
+         <Modal show={show}  size="s" aria-labelledby="contained-modal-title-vcenter" centered >
+         <Modal.Header className="model_box">
+                                       <Modal.Title className="model_text">Enter the Code</Modal.Title>
+                                       <Button variant="secondary" onClick={handleShow}>
+                                       Close
+                                       </Button>
+                                       </Modal.Header>
+                                       <Form>
+                                         <Row className="align-items-center">
+                                           <Col xs="auto" >
+                                             <Form.Control 
+                                               style={{marginLeft:"15%"}}
+                                               className="mb-2"
+                                               id="inlineFormInput"
+                                               placeholder="Enter Code"
+                                               {...code}
+                                             />
+                                           </Col>
+                                           
+                                           <Col xs="auto" style={{paddingLeft:"15%"}}>
+                                           {error && <><small style={{ color: 'red' }}>{error}</small><br /></>}<br />
+                                             <Button type="submit" className="mb-2" onClick={handleCode}>
+                                               Submit
+                                             </Button>
+                                           </Col>
+                                         </Row>
+                                         </Form>
+   
+                 
+           </Modal>
+         </div>
+
+    </div>
+  </div>
+  </>
+    );
+
+    export default Signupone;

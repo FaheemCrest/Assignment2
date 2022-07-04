@@ -1,0 +1,212 @@
+#whole
+{
+    width: 100%;
+    padding: 0;
+}
+#main
+{
+    padding: 0%;
+    width: 100vw; 
+    height: 100vh;
+}
+.main_cards
+{
+    position: relative;
+    width: 98%;
+    margin-top: 1%;
+}
+.main_text
+{
+    position: relative;
+    margin-left: 3%;
+}
+.card_title
+{
+    background-color: lightgreen;
+}
+#login_name
+{
+    text-align: center;
+    color: ivory;
+    margin-top: 5%;
+    font-family:fantasy;
+}
+.nav_options
+{
+    color: lavender;
+    font-size: 15px;
+    text-align: center;
+}
+.circular_picture
+{
+    position: relative;
+    overflow: hidden;
+    max-height: 100px;
+    max-width: 100px;
+    margin-left:28%;
+    border-radius: 50%;
+}
+.circular_picture img
+{
+    width: 100%;
+    height: auto;
+    align-items: center;
+}
+#saperation
+{
+    color: ivory;
+}
+#navbar
+{
+    
+    background-color: indigo;
+    height: 100vh;
+    align-items: center;
+}
+.Title
+{
+    width: 20%;
+    text-align: center;
+    font-size: 10;
+}
+.nav_list
+{
+    position: relative;
+    list-style-type: none;
+    color: ivory;
+    text-align: left;
+    margin-left: 0%;
+    padding-left: 3%;
+}
+.nav_list_contents
+{
+    
+    text-align: left;
+    margin-left: 0%;
+    margin-right: 5%;
+    padding: 1%;
+}
+.nav_list_contents:hover
+{
+    color: #ff0000;
+}
+.nav_icons
+{
+   float:right;
+   margin-left: 5%;
+   display: inline;
+}
+#progress_card
+{
+    margin-top: 0%;
+    margin-bottom: 2%;
+    position: relative;
+}
+.progress_title
+{
+    text-align: center;
+}
+#location:hover
+{
+    background-color:slategrey;
+    cursor: pointer;
+}
+.option_cursor
+{
+    cursor: pointer;
+}
+.second_row_cards_margin
+{
+    margin-top: 3%;
+    margin-left: 0%;
+}
+.graphs
+{
+    margin: 0%;
+}
+#actual_HR
+{
+    text-align: center;
+    font-size: 75px;
+    color: green;
+    margin: 0%;
+}
+#actual_HR_L
+{
+    text-align: center;
+}
+#actual_BP
+{
+    text-align: center;
+    font-size: 75px;
+    color:green;
+    margin-bottom: 0%;
+}
+#actual_BP_L
+{
+    text-align: center;
+}
+
+#actual_PO
+{
+    text-align: center;
+    font-size: 75px;
+    color:red;
+    margin-bottom: 0%;
+}
+#actual_PO_L
+{
+    text-align: center;
+}
+
+#actual_T
+{
+    text-align: center;
+    font-size: 75px;
+    color:greenyellow;
+    margin-bottom: 0%;
+}
+#actual_T_L
+{
+    text-align: center;
+}
+/* Popup style */
+.popup-box {
+    position: fixed;
+    background: #00000050;
+    width: 100%;
+    height: 100vh;
+    top: 0;
+    left: 0;
+  }
+   
+  .box {
+    position: relative;
+    width: 70%;
+    margin: 0 auto;
+    height: auto;
+    max-height: 70vh;
+    margin-top: calc(100vh - 85vh - 20px);
+    background: #fff;
+    border-radius: 4px;
+    padding: 20px;
+    border: 1px solid #999;
+    overflow: auto;
+  }
+   
+  .close-icon {
+    content: 'x';
+    cursor: pointer;
+    position: fixed;
+    right: calc(15% - 30px);
+    top: calc(100vh - 85vh - 33px);
+    background: #ededed;
+    width: 25px;
+    height: 25px;
+    border-radius: 50%;
+    line-height: 20px;
+    text-align: center;
+    border: 1px solid #999;
+    font-size: 20px;
+  }
+  

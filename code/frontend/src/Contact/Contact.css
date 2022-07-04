@@ -1,0 +1,135 @@
+.network_values
+{
+    position: relative;
+    background-color: rgb(48, 43, 70);
+    color: aliceblue;
+    text-align: center;
+}
+
+
+#navbar2
+{
+   
+    background-color: rgb(48, 43, 70);
+    height: 100vh;
+    align-items: center;
+}
+
+#login_name2
+{
+    margin-left: 35%;
+    color: ivory;
+    margin-top: 5%;
+    font-family:'Times New Roman', Times, serif
+}
+
+
+.back_ground
+{
+    
+    background-color: black;
+}
+
+
+.Heading
+{
+    position: relative;
+    text-align: center;
+    padding-top: 4%;
+    color: white;
+}
+
+
+.button_01
+{
+    margin-top: 5%;
+}
+
+
+.rect_box
+{
+    fill:#455eeb; 
+}
+
+
+
+.rect_box:hover
+{
+    
+    fill:red;
+}
+
+
+
+.testing{
+    color: red;
+}
+
+
+
+.svg_text
+{
+    fill:snow;
+}
+
+
+
+.model_box
+{
+    background-color: rgb(48, 43, 70);
+    color:snow;
+}  
+
+
+
+.card_title1
+{
+    margin: 0%;
+    color: snow;
+    background-color:  rgb(48, 43, 70);
+}
+
+
+
+#main_card1
+{
+    background-color: black;
+    margin-top: 2%;
+}
+
+
+
+.attack_paths
+{
+    display:none;
+}
+
+
+
+.table_text
+{
+    color: snow;
+}
+
+
+
+.close_table
+{
+    height: 7%;
+    width: 12%;
+    float: right;
+    margin-top: 3%;
+    margin-left: 80%;
+    
+}
+
+
+
+td
+{
+    text-align: center;
+}
+
+
+
+
